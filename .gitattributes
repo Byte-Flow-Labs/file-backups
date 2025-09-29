@@ -1,0 +1,66 @@
+# 基本文本文件统一使用 LF 换行符
+* text=auto eol=lf
+
+# 特定文件类型明确指定为文本并使用 LF
+*.txt text eol=lf
+*.md text eol=lf
+*.markdown text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.xml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
+*.bash text eol=lf
+*.php text eol=lf
+*.java text eol=lf
+*.c text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.go text eol=lf
+*.rs text eol=lf
+
+# Windows 批处理文件必须使用 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不进行换行符转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.svg binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.7z binary
+*.rar binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+*.pyc binary
+*.pyd binary
+*.pyo binary
+*.db binary
+*.sqlite3 binary
+*.mp3 binary
+*.mp4 binary
+*.avi binary
+*.mov binary
+*.flv binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+
+# 版本控制配置文件
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.gitmodules text eol=lf
